@@ -26,7 +26,27 @@
             <p>Desarrollo Colaborativo</p>
         </header>
     <!-- Contenido -->
-
+        <section>
+            <h2>Areas de GIT</h2>
+            <article>
+                <h3>Working Directory</h3>
+                <p>
+                    El area de trabajo corresponde a la carpeta donde creamos, eliminamos y realizamos las modificaciones de los archivos de nuestro proyecto. Casi nunca utilizaremos la consola en dicha area, a excepcion de la creacion del Repositorio al utilizar el comando <em>git init</em> o querramos clonar un repositorio remoto.
+                </p>
+            </article>
+            <article>
+                <h3>Staging Area (INDEX)</h3>
+                <p>
+                    El area de Control de Cambios corresponde a un archivo dentro de la carpeta <em>.git</em> que identifica a que archivos y carpetas les estamos haciendo seguimiento. Se utiliza para realizar las capturas de codigo (SNAPSHOT) que luego deberan ser confirmadas mediante un commit y de esta manera corroborar el estado de los mismos.
+                </p>
+            </article>
+            <article>
+                <h3>Repository (Local/Remote)</h3>
+                <p>
+                    El almacen de confirmaciones se corresponde a una estructura de subcarpetas dentro de la carpeta <em>.git</em> que contiene las confirmaciones realizadas en forma de archivos BLOB (Binary Large Object) y se utilizan como referencia para deshacer cambios en el directorio de trabajo, asi como tambien para comparar y resolver conflictos.
+                </p>
+            </article>
+        </section>
     <!-- Pie -->
         <footer id="footer">
             <p class="copy">&copy;2022 Todos los derechos reservados</p>
