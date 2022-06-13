@@ -9,3 +9,7 @@ Cuando inicializamos un repositorio debemos hacerlo en la carpeta del proyecto q
 * **git init**: Inicializa un repositorio de git.
 * **git config *--global* user.name `username`**: Define el nombre de usuario con el que nos identificamos.
 * **git config *--global* user.email `email`**: Establece el correo de contacto para las confirmaciones.
+
+## Gestion del proyecto
+
+Cuando trabajamos con un repositorio remoto debemos tener en cuenta que todo cambio que realicemos tiene que subirse al mismo, al igual que debemos descargar cualquier modificacion que se haga sobre el historial. Esto es necesario para que git integre las confirmaciones locales con las remotas y no haya inconvenientes con el grafo resultante.
