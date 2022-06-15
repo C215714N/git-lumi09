@@ -1,0 +1,11 @@
+# archivos
+*.txt
+*.temp
+*.tmp
+*.swp
+
+# carpetas
+node_modules/
+docs/
+temp/
+tmp/
