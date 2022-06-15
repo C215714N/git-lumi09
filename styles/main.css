@@ -7,6 +7,8 @@
     }
     /* Margenes */
     body,
+    h1,
+    header p,
     .menu{
         margin: 0;
     }
@@ -66,7 +68,15 @@
         left: 0;
     }
 /* Cabecera */
-
+    #header{
+        min-height: min(640px, 100vh);
+        display: grid;
+        align-content: center;
+        text-align: center;
+        color:#eee;
+        background-color: #333;
+        font-size: min(calc(2vw + .8rem), 3rem);
+    }
 /* Contenido */
 
 /* Pie de Pagina */
