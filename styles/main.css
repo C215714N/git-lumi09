@@ -67,6 +67,11 @@
     .menu.active{
         left: 0;
     }
+    .menu a.active,
+    .menu a:hover{
+        text-shadow: 0 0 .5rem #eee;
+        font-weight: bold;
+    }
 /* Cabecera */
     #header{
         min-height: min(640px, 100vh);
@@ -75,12 +80,26 @@
         text-align: center;
         color:#eee;
         background-color: #333;
+        text-shadow: 0 0 min(calc(1.5vw + .8rem), 2.5rem);
         font-size: min(calc(2vw + .8rem), 3rem);
     }
+/* Tabla de Contenidos */
+
 /* Contenido */
 
 /* Pie de Pagina */
 
+    /* Mapa de Contacto */
+    
+    /* Tabla Colaboradores */
+
+    /* Repositorios */
+
+    /* Formulario de Contacto */
+
+    /* Redes Sociales */
+
+    /* Derechos de Autor */
 
 /* Medium Devices - Tablets */
 @media screen and (min-width: 768px){
