@@ -5,6 +5,15 @@
         box-sizing: border-box;
         font-family: 'Open Sans', 'calibri', 'segoe ui', sans-serif;
     }
+
+    /*Background*/
+    body  {
+        background-image: url(/images/git_background.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    
     /* Margenes */
     body,
     h1,
@@ -96,7 +105,32 @@
     }
     
     /* Tabla Colaboradores */
-
+    .colabs{
+        margin: 1rem auto;
+        border-collapse: collapse;
+        color: #eee;
+        background: linear-gradient(#36c, #448);
+        text-shadow: 0 0 .5rem #333;
+        box-shadow: -.5rem .5rem .5rem #3335; /*-x+ -y+ blur color*/
+    }
+    .colabs :is(
+        caption, 
+        th,
+        td
+    ){
+        padding: .5rem 1rem;
+    }
+    .colabs caption{
+        border-radius: .25rem .25rem 0 0;
+        background-color: #36c;
+        font-weight: bold;
+    }
+    .colabs tbody tr:nth-child(odd){
+        background-color: #eee3;
+    }
+    .colabs tbody tr:nth-child(even){
+        background-color: #ccc3;
+    }
     /* Repositorios */
 
     /* Formulario de Contacto */
