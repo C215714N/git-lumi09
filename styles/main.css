@@ -102,7 +102,14 @@
     /* Formulario de Contacto */
 
     /* Redes Sociales */
-
+footer >ul ,a{
+    color: #36c;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
     /* Derechos de Autor */
 
 /* Medium Devices - Tablets */
