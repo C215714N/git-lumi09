@@ -31,36 +31,54 @@
     <!-- Tabla de contenidos -->
 
     <!-- Contenido -->
-    <section>
-        <h2>Areas de GIT</h2>
-        <article>
-            <h3>Working Directory</h3>
-            <p>
-                El area de trabajo corresponde a la carpeta donde creamos, eliminamos y realizamos las modificaciones de
-                los archivos de nuestro proyecto. Casi nunca utilizaremos la consola en dicha area, a excepcion de la
-                creacion del Repositorio al utilizar el comando <em>git init</em> o querramos clonar un repositorio
-                remoto.
-            </p>
-        </article>
-        <article>
-            <h3>Staging Area (INDEX)</h3>
-            <p>
-                El area de Control de Cambios corresponde a un archivo dentro de la carpeta <em>.git</em> que identifica
-                a que archivos y carpetas les estamos haciendo seguimiento. Se utiliza para realizar las capturas de
-                codigo (SNAPSHOT) que luego deberan ser confirmadas mediante un commit y de esta manera corroborar el
-                estado de los mismos.
-            </p>
-        </article>
-        <article>
-            <h3>Repository (Local/Remote)</h3>
-            <p>
-                El almacen de confirmaciones se corresponde a una estructura de subcarpetas dentro de la carpeta
-                <em>.git</em> que contiene las confirmaciones realizadas en forma de archivos BLOB (Binary Large Object)
-                y se utilizan como referencia para deshacer cambios en el directorio de trabajo, asi como tambien para
-                comparar y resolver conflictos.
-            </p>
-        </article>
-    </section>
+        <section>
+            <h2>Areas de GIT</h2>
+            <article>
+                <h3>Working Directory</h3>
+                <p>
+                    El area de trabajo corresponde a la carpeta donde creamos, eliminamos y realizamos las modificaciones de los archivos de nuestro proyecto. Casi nunca utilizaremos la consola en dicha area, a excepcion de la creacion del Repositorio al utilizar el comando <em>git init</em> o querramos clonar un repositorio remoto.
+                </p>
+            </article>
+            <article>
+                <h3>Staging Area (INDEX)</h3>
+                <p>
+                    El area de Control de Cambios corresponde a un archivo dentro de la carpeta <em>.git</em> que identifica a que archivos y carpetas les estamos haciendo seguimiento. Se utiliza para realizar las capturas de codigo (SNAPSHOT) que luego deberan ser confirmadas mediante un commit y de esta manera corroborar el estado de los mismos.
+                </p>
+            </article>
+            <article>
+                <h3>Repository (Local/Remote)</h3>
+                <p>
+                    El almacen de confirmaciones se corresponde a una estructura de subcarpetas dentro de la carpeta <em>.git</em> que contiene las confirmaciones realizadas en forma de archivos BLOB (Binary Large Object) y se utilizan como referencia para deshacer cambios en el directorio de trabajo, asi como tambien para comparar y resolver conflictos.
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2>Apuntadores de GIT</h2>
+            <article>
+                <h3>HEAD</h3>
+                <p>
+                    Apuntador Movil que indica al usuario donde se encuentra en el historial de confirmaciones, normalmente se ubica en el ultimo commit realizado, pero podemos utilizarlo como referencia para volver hacia atras en la historia del proyecto.
+                </p>
+            </article>
+            <article>
+                <h3>BRANCH</h3>
+                <p>
+                    Apuntador Dinamico que siempre se ubican sobre el ultimo commit de la linea de tiempo en la que nos encontremos. Se utiliza para facilitar la navegacion dentro del historial y para probar caracteristicas o implementacion sin comprometer la rama principal.
+                </p>
+            </article>
+            <article>
+                <h3>TAG</h3>
+                <p>
+                    Apuntado Estatico que se utiliza para identificar las versiones de nuestro proyecto y tambien facilita la navegacion dentro del historial de confirmacion. Normalmente las etiquetas se identifican como <em>vn.s.r</em> donde n representa la version principal, s la subversion (caracteristicas implementadas) y r las revisiones o correcciones de errores.
+                </p>
+            </article>
+            <article>
+                <h3>STASH</h3>
+                <p>
+                    Apuntador de la Zona temporal de cambios que se utiliza cuando necesitamos navegar en el historial de confirmaciones o ramas y tenemos cambios pendientes, que no ameritan un commit. Estos cambios se almacenan en un commit que integra las diferencias del INDEX y la confirmacion en la que nos encontremos.
+                </p>
+            </article>
+        </section>
     <!-- Pie -->
     <footer id="footer">
         <!-- Mapa de Contacto -->
@@ -73,33 +91,6 @@
         </div>
 
         <!-- Repositorios -->
-<<<<<<< HEAD
-
-        <!-- Colaboradores -->
-        <table class="colabs">
-            <caption>Colaboradores del Proyecto</caption>
-            <thead>
-                <tr>
-                    <th>Usuario</th>
-                    <th>Nombre</th>
-                    <th>Correo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>C215714N</td>
-                    <td>Cristian Racedo</td>
-                    <td>Cristiandracedo@hotmail.com</td>
-                </tr>
-                <!-- Ingrese sus datos -->
-                <tr>
-                    <td>Ramiro</td>
-                    <td>Ramiro Foschini</td>
-                    <td>foschiniramiro@gmail.com</td>
-                </tr>
-            </tbody>
-        </table>
-=======
         
         <!-- Colaboradores -->
             <table class="colabs">
@@ -127,8 +118,6 @@
                         <td>Maximiliano Dorado</td>
                         <td>maximiliano_dorado@yahoo.com.ar</td>
                     </tr>
-                    <!-- Ingrese sus datos -->
-
                     <tr>
                         <td>brianpumarica</td>
                         <td>Brian Pumarica</td>
@@ -149,9 +138,13 @@
                         <td>AgustinRenne</td>
                         <td>agustinrenne@hotmail.com</td>
                     </tr>
+                    <tr>
+                        <td>Ramiro</td>
+                        <td>Ramiro Foschini</td>
+                        <td>foschiniramiro@gmail.com</td>
+                    </tr>
                 </tbody>
             </table>
->>>>>>> 4a67730ed19506855989077a02ad8b1dce7c97f6
         <!-- Redes Sociales -->
         <ul class="menu">
              <li><a href="https://www.instagram.com/" target="new-blank">Instagram</a></li>
