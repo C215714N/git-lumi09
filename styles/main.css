@@ -5,6 +5,15 @@
         box-sizing: border-box;
         font-family: 'Open Sans', 'calibri', 'segoe ui', sans-serif;
     }
+
+    /*Background*/
+    body  {
+        background-image: url(/images/git_background.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    
     /* Margenes */
     body,
     h1,
@@ -102,7 +111,14 @@
     /* Formulario de Contacto */
 
     /* Redes Sociales */
-
+footer >ul ,a{
+    color: #36c;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
     /* Derechos de Autor */
 
 /* Medium Devices - Tablets */
