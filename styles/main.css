@@ -97,7 +97,9 @@
 /* Contenido */
 
 /* Pie de Pagina */
-
+#footer{
+    background-color: #eeea;
+}
     /* Mapa de Contacto */
     .map{
         margin-top: 25px;
@@ -164,7 +166,18 @@ footer >ul ,a{
     justify-content: space-evenly;
 }
     /* Derechos de Autor */
-
+    .copy{
+        cursor: pointer;
+        padding: 1rem;
+        color:#eee;
+        background-color: #248;
+        text-align: center;
+        opacity: .5;
+        transition: all .5s ease-in;
+    }
+    .copy:hover{
+        opacity: 1;
+    }
 /* Medium Devices - Tablets */
 @media screen and (min-width: 768px){
     nav .btn{
