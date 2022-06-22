@@ -110,6 +110,8 @@
         border-collapse: collapse;
         color: #eee;
         background: linear-gradient(#36c, #448);
+        text-shadow: 0 0 .5rem #333;
+        box-shadow: -.5rem .5rem .5rem #3335; /*-x+ -y+ blur color*/
     }
     .colabs :is(
         caption, 
@@ -121,6 +123,7 @@
     .colabs caption{
         border-radius: .25rem .25rem 0 0;
         background-color: #36c;
+        font-weight: bold;
     }
     .colabs tbody tr:nth-child(odd){
         background-color: #eee3;
