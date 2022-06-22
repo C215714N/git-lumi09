@@ -107,6 +107,9 @@
     /* Tabla Colaboradores */
     .colabs{
         margin: 1rem auto;
+        border-collapse: collapse;
+        color: #eee;
+        background: linear-gradient(#36c, #448);
     }
     .colabs :is(
         caption, 
@@ -117,6 +120,13 @@
     }
     .colabs caption{
         border-radius: .25rem .25rem 0 0;
+        background-color: #36c;
+    }
+    .colabs tbody tr:nth-child(odd){
+        background-color: #eee3;
+    }
+    .colabs tbody tr:nth-child(even){
+        background-color: #ccc3;
     }
     /* Repositorios */
 
