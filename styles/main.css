@@ -105,7 +105,19 @@
     }
     
     /* Tabla Colaboradores */
-
+    .colabs{
+        margin: 1rem auto;
+    }
+    .colabs :is(
+        caption, 
+        th,
+        td
+    ){
+        padding: .5rem 1rem;
+    }
+    .colabs caption{
+        border-radius: .25rem .25rem 0 0;
+    }
     /* Repositorios */
 
     /* Formulario de Contacto */
