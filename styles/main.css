@@ -22,7 +22,9 @@
         margin: 0;
     }
     /* Bordes */
-
+    iframe{
+        border: none;
+    }
     /* Rellenos */
     .menu{
         padding: 0;
@@ -98,14 +100,22 @@
 
 /* Pie de Pagina */
 #footer{
-    background-color: #eeea;
+    position: relative;
+    background: linear-gradient(#666a, #3338);
 }
     /* Mapa de Contacto */
     .map{
         margin-top: 25px;
         margin-bottom: 100px;
     }
-    
+    .map iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
     /* Tabla Colaboradores */
     .colabs{
         margin: 1rem auto;
