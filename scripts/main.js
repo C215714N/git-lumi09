@@ -6,7 +6,11 @@
     const mapFrm = d.querySelector('.map iframe');
 
 // Navegacion
-    menuBtn.onclick = () => menuLst.classList.toggle('active');
+    menuBtn.onclick = () => {
+        menuLst.classList.toggle('active') ?
+        menuBtn.innerHTML = '&times;' :
+        menuBtn.innerHTML = '&equiv;'
+    }
 
 // Mapa de Contacto
     mapBtn.addEventListener('click', () => {
