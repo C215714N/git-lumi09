@@ -6,7 +6,9 @@
     const mapFrm = d.querySelector('.map iframe');
 
 // Navegacion
-    menuBtn.onclick = () => {
+    menuBtn.onclick = ()=> toggleMenu()
+    
+    function toggleMenu() {
         menuLst.classList.toggle('active') ?
         menuBtn.innerHTML = '&times;' :
         menuBtn.innerHTML = '&equiv;'
