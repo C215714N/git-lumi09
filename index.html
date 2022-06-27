@@ -177,16 +177,40 @@
             </header>
             <form action="" class="contact">
                 <label for="nombres"> nombres</label>
-                <input type="text" name="nombres" id="nombres">
+                <input 
+                    id="nombres"
+                    name="nombres"    
+                    type="text"
+                    minlength="3" 
+                    maxlength="100"
+                    placeholder="Ingrese su Nombre" 
+                    required>
     
                 <label for="correo">correo</label>
-                <input type="text" name="correo" id="correo">
+                <input 
+                    id="correo"
+                    name="correo" 
+                    type="email" 
+                    minlength="8"
+                    placeholder="Ingrese su Correo"
+                    required>
     
                 <label for="celular">celular</label>
-                <input type="text" name="celular" id="celular">
+                <input 
+                    id="celular"
+                    name="celular"
+                    type="tel"  
+                    placeholder="Ingrese su Telefono"
+                    required>
     
                 <label for="mensaje"> mensaje</label>
-                <textarea name="mensaje" id="mensaje"></textarea>
+                <textarea 
+                    id="mensaje"
+                    name="mensaje"
+                    minlength="20"
+                    maxlength="200"
+                    placeholder="Ingrese su Consulta"
+                    required></textarea>
                 <input class="btn" type="submit" value="Enviar">
     
     

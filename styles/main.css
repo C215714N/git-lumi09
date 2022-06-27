@@ -215,6 +215,12 @@
     .contact [type="submit"]:hover{
         background-color: #333;
     }
+    .contact :valid:not(:last-child){
+        background-color: #3c68;
+    }
+    .contact :invalid:not(:last-child, :placeholder-shown){
+        background-color: #c338;
+    }
     /* Redes Sociales */
 footer >ul ,a{
     color: #36c;
