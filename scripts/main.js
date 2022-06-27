@@ -6,13 +6,14 @@
     const mapFrm = d.querySelector('.map iframe');
 
 // Navegacion
-    menuBtn.onclick = toggleMenu()
-
     const toggleMenu = () => {
         menuLst.classList.toggle('active') ?
         menuBtn.innerHTML = '&times;' :
         menuBtn.innerHTML = '&equiv;'
     }
+    
+    menuBtn.onclick = toggleMenu()
+
 // Mapa de Contacto
     mapBtn.addEventListener('click', () => toggleMap() )
 
