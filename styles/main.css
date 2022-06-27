@@ -186,7 +186,35 @@
         box-shadow: 0 .5rem .25rem #333;
     }
     /* Formulario de Contacto */
-
+    .contact{
+        max-width: 540px;
+        display: grid;
+        align-content: center;
+        margin: auto;
+        padding: 1rem;
+        color: #eee;
+        text-shadow: 0 0 .5rem #333;
+    }
+    .contact :is(
+        input,
+        textarea,
+        select
+    ){
+        border-radius: .25rem;
+        border: 2px solid #eee;
+        resize: vertical;
+        background-color: #eee8;
+    }
+    .contact [type="submit"]{
+        margin-top: .5rem;
+        padding: .25rem 1rem;
+        background-color: #3338;
+        text-transform: uppercase;
+        color: #eee;
+    }
+    .contact [type="submit"]:hover{
+        background-color: #333;
+    }
     /* Redes Sociales */
 footer >ul ,a{
     color: #36c;
